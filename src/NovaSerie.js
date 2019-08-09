@@ -3,24 +3,24 @@ import Axios from 'axios';
 import { Redirect } from 'react-router-dom'
 
 const NovaSerie = () => {
-    const [name, setName] = useState('')
-    const [success, setSuccess] = useState(false)
-    const onChange = evt =>{
-        setName(evt.target.value)
-    }
+  const [name, setName] = useState('')
+  const [success, setSuccess] = useState(false)
+  const onChange = evt => {
+    setName(evt.target.value)
+  }
 
-    const save = () =>{
-        Axios.post('/api/series', {
-            name: name
-        })
-        .then(res =>{
-            setSuccess(true)
-        })
-    }
+  const save = () => {
+    Axios.post('/api/series', {
+      name: name
+    })
+      .then(res => {
+        setSuccess(true)
+      })
+  }
 
-    if(success){
-       return <Redirect to='/series' />
-    }
+  if (success) {
+    return <Redirect to='/series' />
+  }
 
   return (
     <div className="container">
