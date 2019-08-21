@@ -1,6 +1,6 @@
 # Minhas Séries
 
-[Criptografias](https://minhas-series-nobre.herokuapp.com/ "Clique e acesse agora!")
+[Minhas Séries](https://minhas-series-nobre.herokuapp.com/ "Clique e acesse agora!")
 
 ![Minhas Séries](https://github.com/JhonatanNobreBarboza/minhas-series/blob/master/imagem%20minhas%20series.PNG)</br>
 
