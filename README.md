@@ -1,3 +1,9 @@
+# Minhas Séries
+
+[Criptografias](https://minhas-series-nobre.herokuapp.com/ "Clique e acesse agora!")
+
+![Minhas Séries](https://github.com/JhonatanNobreBarboza/minhas-series/blob/master/imagem%20minhas%20series.PNG)</br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
